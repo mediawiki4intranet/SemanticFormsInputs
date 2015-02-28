@@ -7,7 +7,8 @@
 			"Shirayuki",
 			"The Evil IP address",
 			"Umherirrender",
-			"Raymond"
+			"Raymond",
+			"아라"
 		]
 	},
 	"semanticformsinputs-desc": "{{desc|name=Semantic Forms Inputs|url=https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Semantic_Forms_Inputs}}",
@@ -16,8 +17,8 @@
 	"semanticformsinputs-prev": "Used as label for the \"Previous month\" button in the Date picker.\n\nSee also:\n* {{msg-mw|Semanticformsinputs-next}}\n{{Identical|Previous}}",
 	"semanticformsinputs-next": "Used as label for the \"Next month\" button in the Date picker.\n\nSee also:\n* {{msg-mw|Semanticformsinputs-prev}}\n{{Identical|Next}}",
 	"semanticformsinputs-today": "Used as label for the \"Today\" button in the Date picker.\n{{Identical|Today}}",
-	"semanticformsinputs-dateformatlong": "{{Optional}}\n{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}",
-	"semanticformsinputs-dateformatshort": "{{Optional}}\n{{doc-important|This is a machine-readable date format string!| <br>It is used by a function to format a date. It will not be read by a human user. Do not translate each letter literally! Instead insert the date format for your language using the english-based letters. See http://docs.jquery.com/UI/Datepicker/formatDate }}",
+	"semanticformsinputs-dateformatlong": "{{Optional}}\n{{DataFormatSpecifiers/en}}",
+	"semanticformsinputs-dateformatshort": "{{Optional}}\n{{DataFormatSpecifiers/en}}",
 	"semanticformsinputs-firstdayofweek": "{{optional}}\n0 - sunday, 1 - monday...",
 	"semanticformsinputs-malformedregexp": "Unused at this time.\n\nAn error message.\n\nParameters:\n* $1 - regular expression",
 	"semanticformsinputs-datepicker-dateformat": "This is a help text for the [[Special:CreateForm]] page.",
