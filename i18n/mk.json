@@ -11,6 +11,7 @@
 	"semanticformsinputs-prev": "Претходно",
 	"semanticformsinputs-next": "Следно",
 	"semanticformsinputs-today": "Денес",
+	"semanticformsinputs-dateformatlong": "d MM yy г.",
 	"semanticformsinputs-malformedregexp": "Погрешно срочен регуларен израз ($1).",
 	"semanticformsinputs-datepicker-dateformat": "Низа за датумски формат. За повеќе информации, погледајте ја [https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters документацијата].",
 	"semanticformsinputs-datepicker-weekstart": "Прв ден во седмицата (0 - недела, 1 - понеделник, ...).",
