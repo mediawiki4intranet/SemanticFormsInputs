@@ -14,7 +14,7 @@
 	"semanticformsinputs-today": "今天",
 	"semanticformsinputs-malformedregexp": "格式錯誤的正則表達式（$1）。",
 	"semanticformsinputs-datepicker-dateformat": "日期格式字符串。詳情請參見[https://www.mediawiki.org/w/index.php?title=Extension:Semantic_Forms_Inputs&fromsection=Date_picker#Parameters 在線文檔]。",
-	"semanticformsinputs-datepicker-weekstart": "一周的第一天（0-星期日，1-星期一 ……）。",
+	"semanticformsinputs-datepicker-weekstart": "一週的首日（0-週日，1-週一，等等）。",
 	"semanticformsinputs-datepicker-firstdate": "可選擇的第一個日期（採用 dd/yyyy/mm 格式）。",
 	"semanticformsinputs-datepicker-lastdate": "可選擇的最後日期（採用 dd/yyyy/mm 格式）。",
 	"semanticformsinputs-datepicker-disabledaysofweek": "不可選擇的日子列表（比如，周末：6、 0）。",
