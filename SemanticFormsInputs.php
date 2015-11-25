@@ -72,6 +72,7 @@ $wgResourceModules['ext.semanticformsinputs.datepicker'] = array(
 	'localBasePath' => $dir,
 	'remoteExtPath' => 'SemanticFormsInputs',
 	'scripts' => 'libs/datepicker.js',
+	'position' => 'bottom',
 	'dependencies' => array(
 		'jquery.ui.datepicker',
 		'ext.semanticforms.main'

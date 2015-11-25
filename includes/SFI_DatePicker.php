@@ -151,7 +151,11 @@ class SFIDatePicker extends SFFormInput {
 				. "	jQuery.datepicker.setDefaults(jQuery.datepicker.regional['wiki']);\n"
 				. "});});\n";
 
-			$wgOut->addScript( Html::inlineScript(  $jstext ) );
+			$wgOut->addScript(
+				method_exists( 'ResourceLoader', 'makeInlineScript' )
+				? ResourceLoader::makeInlineScript( $jstext )
+				: Html::inlineScript( $jstext )
+			);
 			
 		}
 	}
