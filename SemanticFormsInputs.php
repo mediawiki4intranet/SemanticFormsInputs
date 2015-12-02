@@ -171,7 +171,7 @@ class SFISettings {
  * Registers the input types with Semantic Forms.
  */
 function wfSFISetup() {
-	global $sfgFormPrinter, $wgVersion;
+	global $sfgFormPrinter, $sfigSettings, $wgScriptPath;
 
 	$sfgFormPrinter->registerInputType( 'SFIDatePicker' );
 	$sfgFormPrinter->registerInputType( 'SFITimePicker' );
@@ -180,6 +180,9 @@ function wfSFISetup() {
 	$sfgFormPrinter->registerInputType( 'SFIRegExp' );
 	$sfgFormPrinter->registerInputType( 'SFITwoListBoxes' );
 	$sfgFormPrinter->registerInputType( 'SFIDateCheck' );
+	if ( $sfigSettings->scriptPath === NULL ) {
+		$sfigSettings->scriptPath = $wgScriptPath . '/extensions/SemanticFormsInputs';
+	}
 
 	return true;
 }

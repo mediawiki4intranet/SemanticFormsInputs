@@ -17,7 +17,7 @@ if ( !defined( 'SFI_VERSION' ) ) {
 # This is the path to your installation of Semantic Forms Inputs as
 # seen from the web. No final slash.
 #
-$sfigSettings->scriptPath = $wgScriptPath . '/extensions/SemanticFormsInputs';
+$sfigSettings->scriptPath = null;
 
 ## Date Picker Settings
 
