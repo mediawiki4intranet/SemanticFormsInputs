@@ -703,7 +703,7 @@ class SFIDatePicker extends SFFormInput {
 		if ( ! array_key_exists( 'part of dtp', $this->mOtherArgs ) ) {
 			
 			// wrap in span (e.g. used for mandatory inputs)
-			$class = array_key_exists( 'mandatory', $this->mOtherArgs ) ? 'inputSpan mandatoryFieldSpan' : 'inputSpan';
+			$class = array_key_exists( 'mandatory', $this->mOtherArgs ) ? 'inputSpan mandatoryFieldSpan' : 'inputSpan datepickerSpan';
 			$html = Xml::tags('span', array('class'=>  $class ), $html );
 			
 		}

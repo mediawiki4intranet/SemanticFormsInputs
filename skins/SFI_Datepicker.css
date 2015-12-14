@@ -1,0 +1,11 @@
+.hasDatepicker {
+	width: 11ex;
+}
+.datepickerSpan {
+	white-space: nowrap;
+}
+.datepickerSpan .ui-datepicker-trigger {
+	height: 2em;
+	font-size: 100%;
+	font-family: sans-serif;
+}
